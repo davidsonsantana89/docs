@@ -122,7 +122,7 @@ luckily Streamlit allows you to cache the data.
 1. Try adding `@st.cache_data` before the `load_data` declaration:
 
    ```python
-   @st.cache_data
+   @st.cache
    def load_data(nrows):
    ```
 
